@@ -3,9 +3,9 @@
 
 :root{
     --cor-primaria: #000000;
-    --cor-secundaria: #F72798;
-    --cor-terciaria: #F57D1F;
-    --cor-hover: #EBF400;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
 
     --font-primaria: "Krona One", sans-serif;
     --font-secundaria: "Montserrat", sans-serif;
@@ -25,6 +25,7 @@ body{
 .cabecalho__menu{
     display: flex;
     gap: 80px;
+    color: ;
     
 
     
@@ -130,6 +131,6 @@ a.cabecalho__menu__link{
         width: 100%;
     }
     .rodape{
-        padding: 5%;
+        padding: 2%;
     }
 }
