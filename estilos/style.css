@@ -17,7 +17,6 @@
 }
 
 body{  
-    
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     box-sizing: border-box;
@@ -25,11 +24,6 @@ body{
 .cabecalho__menu{
     display: flex;
     gap: 80px;
-    color: ;
-    
-
-    
-
 }
 a.cabecalho__menu__link{
     color: var(--cor-terciaria);
@@ -37,19 +31,19 @@ a.cabecalho__menu__link{
     font-family: var(--font-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 0% 5%;
 }
 
 .apresentacao{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5% 15%;
+    padding: 5% ;
     gap: 82px;
     
 }
 .apresentacao__conteudo{
-    width: 50%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -105,7 +99,7 @@ a.cabecalho__menu__link{
     background-color: var(--cor-hover);
 }
 .apresentacao__imagem{
-    width: 50%;
+    width: 55%;
 }
 .rodape{
     background-color: var(--cor-terciaria);
